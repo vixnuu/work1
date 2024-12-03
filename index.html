@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="demo.css">
+</head>
+<body>
+    <h1 id="hh1">SURVEY FORM</h1>
+    <form action="'">
+        
+        <div class="mainbox">
+            <p id="hh2">let us know how we can improve</p>
+            <div class="mainbox2">
+                <div class="box1">
+                    <label for="name" id="name">Name:</label><br><br><br>
+                    <label for="email">Email:</label><br><br><br>
+                    <label for="age">Age:</label><br><br><br>
+                    <label for="file">Upload a file:</label><br><br><br><br>
+                    <label for="role">Which option best describes your current role?</label><br><br><br>
+                    <label>How likely is it that you would recommend <br>this program to a friend?</label><br><br><br><br>
+                    <label for="like-most">What do you like most here?</label><br><br><br>
+                    <label>Things that should be improved in the future <br> (Check all that apply):</label><br><br><br><br>
+                    <label for="comments">Any Comments or Suggestions?</label><br><br>
+                    
+    
+    
+                </div>
+                <br><br>
+                <div class="box2">
+                    <input type="text" name="name" placeholder="Enter your name" required><br><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your Email" required><br><br>
+                    <input type="number" id="age" name="age" placeholder="Age" required><br><br>
+                    <input type="file" id="file" name="file"><br><br><br>
+    
+                    <select id="role" name="role">
+                        <option value="student">Student</option>
+                        <option value="professional">Professional</option>
+                        <option value="other">Other</option>
+                    </select><br><br><br>
+                        <div class="radioo">
+                            <input type="radio" id="definitely" name="recommend" value="definitely">
+                            <label for="definitely">Definitely</label><br>
+                            <input type="radio" id="maybe" name="recommend" value="maybe">
+                            <label for="maybe">Maybe</label><br>
+                            <input type="radio" id="not-sure" name="recommend" value="not-sure">
+                            <label for="not-sure">Not sure</label>
+                        </div>
+                      <br>
+    
+                      <select id="like-most" name="like-most">
+                        <option value="option1">Option 1</option>
+                        <option value="option2">Option 2</option>
+                        <option value="option3">Option 3</option>
+                      </select><br><br>
+    
+                      <input type="checkbox" id="frontend" name="improvement" value="frontend">
+                      <label for="frontend">Front-end Projects</label><br>
+                      <input type="checkbox" id="backend" name="improvement" value="backend">
+                      <label for="backend">Back-end Projects</label><br>
+                      <input type="checkbox" id="data-viz" name="improvement" value="data-viz">
+                      <label for="data-viz">Data Visualization</label><br><br>
+    
+                      <textarea id="comments" name="comments" placeholder="Enter your comment here..."></textarea><br><br><br>
+    
+    
+                </div>
+            </div>
+            <button type="submit">Submit</button>
+        </div>
+        
+    </form>
+    
+    
+</body>
+</html>
